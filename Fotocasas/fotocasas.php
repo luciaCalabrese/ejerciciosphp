@@ -31,7 +31,11 @@
             <option value="">Poblados del oeste</option>
         </select>
         <br><br>
+        <label for="">Direccion</label>
+        <input type="text">
 
+        <label for="">Direccion</label>
+        <input type="number" max="5" min="1">
     </div>
     <button name="registro" type="submit" id="button" onclick="alert('El formulario ha sido enviado con exito')"> Enviar </button>
 </form>
